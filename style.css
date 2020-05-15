@@ -1,0 +1,115 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(41, 41, 41);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+.btn-login {
+    border: 1px solid #CC797a;
+    color: white;
+    padding: 10px 25px;
+}
+
+.btn-login:hover {
+    border: 1px solid rgb(99, 26, 0);
+    background-color: #CC797a;
+    color: white;
+    padding: 10px 25px;
+}
+
+.btn-create {
+    text-align: center;
+    border: 1px solid rgb(209, 85, 87);
+    color: white;
+    padding: 15px 200px;
+    margin-top: 15px;
+}
+
+
+.btn-create:hover {
+    border: 1px solid rgb(99, 26, 0);
+    background-color: #CC797a;
+    color: white;
+}
+
+.btn-modal-login{
+    border: 1px solid rgb(209, 85, 87);
+    color: white;
+    padding: 10px 80px;
+    margin-top: 15px;
+}
+
+.flex-form{
+    display: flex;
+    justify-content: center;
+}
+
+.register{
+    background-color: rgba(0, 0, 0, 0.253);
+    border: 1px solid rgb(99, 26, 0);
+    border-radius: 80px;
+    padding: 50px 100px;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px 5px rgba(124, 43, 44, 0.356);
+}
+
+.register-pic{
+    transform: translateX(10px);
+    max-width: 410px;
+    height: auto;
+}
+
+.modal-login{
+    background-color: rgba(59, 59, 59, 0.863);
+    border: 1px solid gray;
+    border-radius: 80px;
+    padding: 50px 100px;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px 5px rgba(209, 85, 87, 0.185);
+}
+
+.modal-pic{
+    transform: translateX(50px);
+    max-width: 100px;
+    height: auto;
+}
+
+.modal-content{
+    transform: translateX(50px);
+    background-color: transparent;
+    
+}
+
+.modal-form{
+    margin-top: 15px;
+}
+
+.fade{
+    background-color: #000000d6;
+}
+
+input{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(209, 85, 87) !important;
+    outline: none !important;
+}
+
+
+label{
+    color: white !important;
+}
